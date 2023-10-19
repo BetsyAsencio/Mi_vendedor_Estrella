@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.controladorRegistro">
+   <children>
+      <AnchorPane layoutX="261.0" layoutY="43.0" prefHeight="84.0" prefWidth="787.0" style="-fx-background-color: #96D9E7;" />
+      <Label layoutX="399.0" layoutY="57.0" text="Registro de Vendedores" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="50.0" />
+         </font>
+      </Label>
+      <TableView layoutX="265.0" layoutY="174.0" prefHeight="376.0" prefWidth="780.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+      <Button layoutX="167.0" layoutY="615.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="273.0" style="-fx-background-color: #419EBD;" text="Agregar vendedor" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="505.0" layoutY="615.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="273.0" style="-fx-background-color: #419EBD;" text="Eliminar producto" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="BTMenu" layoutX="1165.0" layoutY="29.0" mnemonicParsing="false" onAction="#IrMenu" style="-fx-background-color: #419EBD;">
+         <graphic>
+            <ImageView fitHeight="84.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/menu.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

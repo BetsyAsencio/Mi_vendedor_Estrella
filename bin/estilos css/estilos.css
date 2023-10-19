@@ -1,0 +1,68 @@
+#textField_usuario {
+    -fx-background-radius: 20; /* Ajusta el radio de los bordes de fondo*/
+    -fx-border-radius: 20; /* Ajusta el radio de los bordes del textfield */
+    -fx-border-color: #808080; /* Cambia el color del borde */
+    -fx-border-width: 2px; /* Ancho del borde en píxeles */
+    -fx-padding: 0px 15px; /* Relleno interno del TextField */
+    -fx-font-size: 20px;
+}
+
+#textField_contrasenia {
+    -fx-background-radius: 20; /* Ajusta el radio de los bordes de fondo*/
+    -fx-border-radius: 20; /* Ajusta el radio de los bordes del textfield */
+    -fx-border-color: #808080; /* Cambia el color del borde */
+    -fx-border-width: 2px; /* Ancho del borde en píxeles */
+    -fx-padding: 0px 15px; /* Relleno interno del TextField */
+    -fx-font-size: 20px;
+}
+
+#BTinicio{
+    -fx-background-color: #96D9E7; /* Nuevo color de fondo al pasar el ratón*/
+    -fx-background-radius: 46px; /* Radio de los bordes en píxeles */
+    -fx-padding: 15px 20px; /* Relleno interno del botón */
+}
+#BTinicio:hover{
+    -fx-background-color: #419EBD; /* Nuevo color de fondo al pasar el ratón*/
+   
+}
+
+#BTinventarioADM{
+    -fx-padding: 15px 20px; /* Relleno interno del botón */
+    -fx-background-radius: 46px; /* Radio de los bordes en píxeles */
+    -fx-effect: dropshadow(gaussian, rgba(100,100,100,0.6), 10, 0, 0, 2); /* Sombras */
+    -fx-border-color: transparent; /* Borde transparente */
+    
+}
+#BTinventarioADM:hover{
+    -fx-border-color: #419EBD; /* Color del borde */
+    -fx-border-width: 6px; /* Ancho del borde en píxeles */
+    -fx-border-radius: 46; /* Ajusta el radio de los bordes del textfield */
+    
+}
+
+#BTiregistroADM{
+    -fx-padding: 15px 20px; /* Relleno interno del botón */
+    -fx-background-radius: 46px; /* Radio de los bordes en píxeles */
+    -fx-effect: dropshadow(gaussian, rgba(100,100,100,0.6), 10, 0, 0, 2); /* Sombras */
+    -fx-border-color: transparent; /* Borde transparente */
+    
+}
+#BTiregistroADM:hover{
+    -fx-border-color: #419EBD; /* Color del borde */
+    -fx-border-width: 6px; /* Ancho del borde en píxeles */
+    -fx-border-radius: 46; /* Ajusta el radio de los bordes del textfield */
+    
+}
+#BTicomprarADM{
+    -fx-padding: 15px 20px; /* Relleno interno del botón */
+    -fx-background-radius: 46px; /* Radio de los bordes en píxeles */
+    -fx-effect: dropshadow(gaussian, rgba(100,100,100,0.6), 10, 0, 0, 2); /* Sombras */
+    -fx-border-color: transparent; /* Borde transparente */
+    
+}
+#BTicomprarADM:hover{
+    -fx-border-color: #419EBD; /* Color del borde */
+    -fx-border-width: 6px; /* Ancho del borde en píxeles */
+    -fx-border-radius: 46; /* Ajusta el radio de los bordes del textfield */
+    
+}

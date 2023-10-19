@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="fondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#quitarFoco" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.controladorLogin">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="663.0" layoutX="617.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/IMminisuper.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="114.0" fitWidth="532.0" layoutX="37.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/logo.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="textField_contrasenia" focusTraversable="false" layoutX="141.0" layoutY="388.0" prefHeight="50.0" prefWidth="334.0" promptText="Contraseña" />
+      <TextField fx:id="textField_usuario" focusTraversable="false" layoutX="141.0" layoutY="294.0" prefHeight="50.0" prefWidth="334.0" promptText="Usuario" />
+      <Button fx:id="BTinicio" layoutX="141.0" layoutY="482.0" mnemonicParsing="false" onAction="#InicioSesion" prefHeight="60.0" prefWidth="334.0" text="Inicio" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
