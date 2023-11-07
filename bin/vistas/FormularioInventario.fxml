@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="97.0" layoutY="102.0" prefHeight="41.0" prefWidth="302.0" promptText="Nombre del producto" />
+      <Label layoutX="106.0" layoutY="37.0" text="Registrar producto">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Label>
+      <TextField layoutX="96.0" layoutY="173.0" prefHeight="41.0" prefWidth="302.0" promptText="Precio al vendedor" />
+      <TextField layoutX="95.0" layoutY="244.0" prefHeight="41.0" prefWidth="302.0" promptText="Precio al publico" />
+      <TextField layoutX="96.0" layoutY="316.0" prefHeight="41.0" prefWidth="302.0" promptText="ID" />
+      <TextField layoutX="95.0" layoutY="384.0" prefHeight="41.0" prefWidth="302.0" promptText="Cantidad en existencias" />
+      <Button fx:id="BTRegistrar" layoutX="77.0" layoutY="447.0" mnemonicParsing="false" onAction="#RegistrarVendedor" prefHeight="60.0" prefWidth="334.0" text="Registrar" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
